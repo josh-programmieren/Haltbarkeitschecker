@@ -1,18 +1,30 @@
 {
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
+  "name": "com.joshsoft.haltbarkeitschecker",
+  "displayName": "haltbarkeitschecker",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Eine App zum Verwalten von Artikeln und deren Mindesthaltbarkeitsdaten.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cordova serve",
+    "browser:build": "cordova build browser",
+    "browser:run": "cordova run browser",
+    "electron:build": "cordova build electron",
+    "electron:run": "cordova run electron"
   },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "Joshua Rohmann",
   "license": "Apache-2.0",
   "cordova": {
-    "platforms": []
+    "platforms": [
+      "browser",
+      "electron"
+    ]
+  },
+  "devDependencies": {
+    "cordova-browser": "^6.0.0",
+    "cordova-electron": "^3.1.0"
   }
 }

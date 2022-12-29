@@ -19,8 +19,10 @@ Eine App zum Verwalten von Artikeln und deren Mindesthaltbarkeitsdaten.
 4. Füge die Plattform deiner Wahl hinzu. Momentan werden leider nur Browser und Electron unterstützt. Dafür gibst du entweder ```cordova platform add browser```oder ```cordova platform add electron``` ein. Alternativ kannst du auch ```npm run serve``` eingeben.
 5. Baue das Projekt für deine Plattform oder führe es direkt aus:
 - Bauen:
-```npm run browser:build``
+```npm run browser:build```
+oder:
 ```npm run electron:build```
 - Direkt starten:
 ```npm run browser:start```
+oder:
 ```npm run electron:start```
