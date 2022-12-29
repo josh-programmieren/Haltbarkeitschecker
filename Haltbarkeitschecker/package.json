@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "cordova serve",
     "browser:build": "cordova build browser",
-    "browser:run": "cordova run browser",
+    "browser:start": "cordova run browser",
     "electron:build": "cordova build electron",
-    "electron:run": "cordova run electron"
+    "electron:start": "cordova run electron"
   },
   "keywords": [
     "ecosystem:cordova"
